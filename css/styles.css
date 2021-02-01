@@ -238,7 +238,8 @@ header {
 
 .crewman-section {
   background-color: var(--buttom-background);
-  height: 648px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .command-heading {
@@ -249,7 +250,6 @@ header {
   letter-spacing: 0.03em;
   text-align: center;
   padding-bottom: 50px;
-  padding-top: 94px;
 }
 
 .command-list {
@@ -290,13 +290,8 @@ header {
 /* ============== подвал =============  */
 
 .footer-section {
-  height: 252px;
-}
-
-.footer-adress {
-  width: 231px;
-  height: 81px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -308,15 +303,19 @@ header {
   font-size: 26px;
   line-height: 1.1923;
   letter-spacing: 0.03em;
-  padding-top: 60px;
   padding-bottom: 20px;
+}
+
+.footer-adress {
+  height: 82px;
 }
 
 .footer-text {
   color: var(--white-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7142;
+  letter-spacing: 0.03em;
   padding-bottom: 9px;
 }
 
@@ -344,6 +343,7 @@ header {
 /* ============== список проетов =============  */
 
 .project-element {
+  padding-top: 39px;
   padding-bottom: 149px;
 }
 
@@ -352,8 +352,7 @@ header {
   height: 38px;
   align-items: stretch;
   justify-content: center;
-  padding: 0px;
-  padding-top: 39px;
+  margin-bottom: 50px;
 }
 
 .button {
@@ -384,13 +383,11 @@ header {
 .project-element-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 88px;
 }
 
 .project-element-item {
   border: 1px solid #eeeeee;
   width: 370px;
-  height: 404px;
 }
 
 .project-element-item:not(:nth-child(3n + 3)) {
