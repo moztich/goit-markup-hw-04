@@ -156,7 +156,8 @@ header {
   align-items: center;
 }
 
-.navigation-link-contacts:hover .header-svg {
+.link.contacts:hover .header-svg,
+.link.contacts:focus .header-svg {
   fill: var(--blue-secondary-color);
 }
 
@@ -590,8 +591,12 @@ header {
   width: 370px;
 }
 
-.project-element-item:hover,
-.project-element-item:focus {
+.project-element-link {
+  display: block;
+}
+
+.project-element-link:hover,
+.project-element-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
